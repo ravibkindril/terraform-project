@@ -16,6 +16,11 @@ variable "subnets" { #student db
       address_prefix    = ["10.0.2.0/24"]
       availability_zone = "2"
     }
+    "subnet3" = { #student3
+      name              = "web-subnet-az3"
+      address_prefix    = ["10.0.3.0/24"]
+      availability_zone = "3"
+    }
   }
 }
 
